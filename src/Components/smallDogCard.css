@@ -1,0 +1,30 @@
+* {
+	margin-block-start:0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsla(0, 0%, 99%, 0.95);
+}
+
+article {
+	background-color: hsla(0, 0%, 100%, 0.6);
+	box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.2);
+	margin-bottom: 2rem;
+}
+
+
+.dog-image {
+	min-height: 15rem;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.dog-info {
+	min-height: 5rem;
+	color: hsla(0, 0%, 0%, 0.8);
+}
